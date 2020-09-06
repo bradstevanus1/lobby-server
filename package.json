@@ -1,6 +1,6 @@
 {
   "name": "lobby-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The server for a small wrapper around websockets that handles lobbies. This server is a pool of lobbies, where lobbies are groups of any amount of users. A common use for this server is to quickly implement online multiplayer in games.",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/bradstevanus1/lobby-server/issues"
   },
-  "homepage": "https://github.com/bradstevanus1/lobby-server#readme"
+  "homepage": "https://github.com/bradstevanus1/lobby-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
 }
