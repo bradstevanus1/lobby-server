@@ -1,6 +1,6 @@
 {
   "name": "lobby-server",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "A small wrapper around websockets that handles realtime connections to online lobbies",
   "main": "index.js",
   "scripts": {
