@@ -1,7 +1,7 @@
 {
   "name": "lobby-server",
   "version": "1.7.0",
-  "description": "The server for a small wrapper around websockets that handles lobbies. This server is a pool of lobbies, where lobbies are groups of any amount of users. A common use for this server is to quickly implement online multiplayer in games.",
+  "description": "A small wrapper around websockets that handles realtime connections to online lobbies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/bradstevanus1/lobby-server.git"
   },
+  "keywords": [
+    "realtime",
+    "websocket",
+    "tcp",
+    "socket.io",
+    "online"
+  ],
   "author": "Bradley Stevanus",
   "license": "MIT",
   "bugs": {
