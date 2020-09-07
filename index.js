@@ -1,6 +1,8 @@
 function lobbyServer(http) {
   const io = require("socket.io")(http);
 
+  io.origins("*:*");
+
   // Handle incoming requests from clients
   io.on("connection", (socket) => {
     // Once a client has connected, we wait until we get a ping from them saying what room they want to join
