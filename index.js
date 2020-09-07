@@ -19,6 +19,8 @@ function lobbyServer(http) {
       });
     });
   });
+
+  return io;
 }
 
 module.exports = lobbyServer;
